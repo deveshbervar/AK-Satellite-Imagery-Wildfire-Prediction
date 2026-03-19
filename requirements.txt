@@ -1,0 +1,26 @@
+# Core geospatial libraries
+rasterio==1.3.9           # Read/write satellite raster files (.tif)
+geopandas==0.14.0         # Geospatial dataframes (shapefiles, regions)
+shapely==2.0.3            # Geometric operations (bounding boxes, polygons)
+pyproj==3.6.1             # Coordinate reference system transformations
+ 
+# Satellite data access
+sentinelsat==1.2.1        # Download Sentinel-1/2 data from Copernicus Hub
+earthengine-api==0.1.390  # Google Earth Engine Python API (alternative)
+ 
+# Data processing
+numpy==1.26.0             # Array operations on image bands
+pandas==2.1.0             # Tabular data (weather, metadata)
+xarray==2023.9.0          # Multi-dimensional arrays for time-series imagery
+ 
+# Visualization
+matplotlib==3.8.0         # Plotting satellite images and results
+folium==0.15.0            # Interactive maps (for GIS dashboard later)
+ 
+# Machine Learning (for later model phase)
+torch==2.1.0              # PyTorch for CNN-LSTM model
+scikit-learn==1.3.0       # Preprocessing, metrics
+ 
+# Notebook
+jupyter==1.0.0
+ipykernel==6.25.0
