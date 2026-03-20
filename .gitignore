@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+
+# Data files (too large for GitHub)
+data/raw/
+data/weather/*.nc
+*.tif
+*.zip
+*.h5
+
+# Model checkpoints
+*.pth
+*.pt
+models/checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Generated outputs
+band_extraction_result.png
+data/processed/
